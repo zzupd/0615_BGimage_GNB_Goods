@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+/* GNB 메뉴 시작 */
+nav#gnb {
+    border: 1px solid #aaa;
+}
+
+#gnb > ul#mainMenu {}
+
+#gnb a {
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    padding: 0 24px;
+    border: 1px solid #08f;
+    display: inline-block;
+}
+
+#gnb a:hover {
+    color: rgba(34, 34, 34, 0.6);
+    font-weight: bold;
+}
+
+#gnb ul.subMenu {
+
+    background-color: #fff;
+    position: absolute;
+    display: none;
+}
+
+/* 서브메뉴 숨기기 */
+
+/* GNB 메뉴 끝 */
